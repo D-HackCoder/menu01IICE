@@ -102,6 +102,10 @@ while True:
 	 print(".")
 	 os.system("winword")
 
+	elif ("DONT" in p)  or ("DON'T" in p) or ("NOT" in p) :
+	 pyttsx3.speak("Type Again")
+	 continue
+	
 	elif ("EXIT" in p)  or ("QUIT" in p) or ("CLOSE" in p) or ("0" in p) :
 	 pyttsx3.speak("Exiting")
 	 break
