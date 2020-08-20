@@ -12,7 +12,7 @@ print("  =============================================== Hello World ===========
 engine.say('Hello World')
 
 print("")
-print("    My name is Divy Shah. With the help of tool you can open below things.......")
+print("    My name is Divy Shah,I make this tool With this help of tool you can open below things.......")
 
 print("\n\t 1.MICROSOFT WORD \t 2.MICROSOFT POWERPOINT \n\t 3.MICROSOFT EXCEL \t 4.GOOGLE CHROME \n\t 5.VLC PLAYER     \t 6.ADOBE ILLUSTRATOR \n\t 7.ADOBE PHOTOSHOP \t 8.MICROSOFT EDGE \n\t 9.NOTEPAD        \t 10.TELEGRAM \n\n\t\t     0. FOR EXIT")
 
