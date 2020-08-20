@@ -32,7 +32,11 @@ while True:
 	print(p)
 	# os.system(p)
 
-	if ("GOOGLE" in p) or ("SEARCH" in p) or ("WEB BROWSER" in p)  or ("CHROME" in p) or ("BROWSER" in p) or ("4" in p) :
+	if ("DONT" in p)  or ("DON'T" in p) or ("NOT" in p) :
+	 pyttsx3.speak("Type Again")
+	 continue
+
+	elif ("GOOGLE" in p) or ("SEARCH" in p) or ("WEB BROWSER" in p)  or ("CHROME" in p) or ("BROWSER" in p) or ("4" in p) :
 	 pyttsx3.speak("Opening")
 	 pyttsx3.speak("GOOGLE CHROME")
 	 print(".")
@@ -101,10 +105,6 @@ while True:
 	 print(".")
 	 print(".")
 	 os.system("winword")
-
-	elif ("DONT" in p)  or ("DON'T" in p) or ("NOT" in p) :
-	 pyttsx3.speak("Type Again")
-	 continue
 	
 	elif ("EXIT" in p)  or ("QUIT" in p) or ("CLOSE" in p) or ("0" in p) :
 	 pyttsx3.speak("Exiting")
