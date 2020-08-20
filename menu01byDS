@@ -34,6 +34,8 @@ while True:
 
 	if ("DONT" in p)  or ("DON'T" in p) or ("NOT" in p) :
 	 pyttsx3.speak("Type Again")
+	 print(".")
+	 print(".")
 	 continue
 
 	elif ("GOOGLE" in p) or ("SEARCH" in p) or ("WEB BROWSER" in p)  or ("CHROME" in p) or ("BROWSER" in p) or ("4" in p) :
